@@ -1,6 +1,6 @@
-const { createPool } = require('mysql2/promise')
+const  { createPool } = require('mysql2/promise')
 
-const pool = createPool({
+const  pool = createPool({
     host:'localhost',
     user:'root',
     password:'root',
